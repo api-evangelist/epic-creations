@@ -1,8 +1,28 @@
 aid: epic-creations
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epic-creations.png
 name: Epic! Creations
-description: Epic! Creations is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Epic! Creations, Inc. operates Epic, an award-winning digital reading and
+  learning platform for children twelve and under. The service gives families
+  and educators unlimited access to a library of more than 40,000 books,
+  audiobooks, and learning videos, with reading-level personalization, quizzes,
+  and progress tracking. Epic offers a consumer family subscription and Epic
+  School, a version that is free for teachers and students during the school
+  day via class codes. The company was surfaced as a portfolio company of
+  Battery Ventures and added to the API Evangelist network. Epic is a
+  business-to-consumer application and does not publish a public developer
+  program, API, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/epic-creations/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Reading
+- Children
+- Digital Library
+- Books
+- Audiobooks
+- Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/epic-creations-domain-security.yml
+- type: Website
+  url: https://www.getepic.com/
+- type: Pricing
+  url: https://www.getepic.com/plans
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
